@@ -1,4 +1,4 @@
-package com.mMind;
+package Mastermind;
 
 import java.util.*;
 
@@ -9,12 +9,12 @@ public class MastermindCollection {
     private final int codeSize = 4;
 
 
-    Random rand;
+    private Random rand;
     private final Scanner scanner;
 
     private int turn = 0;
-    ArrayList<String> submissions;
-    ArrayList<String> codeToBreak;
+    private ArrayList<String> submissions;
+    private ArrayList<String> codeToBreak;
 
 
     private  int wellPlaced = 0;
@@ -22,7 +22,7 @@ public class MastermindCollection {
     private boolean won = false;
 
     private ArrayList<String> generateCode() {
-        ArrayList<String> code = new ArrayList<String>(codeSize);
+        ArrayList<String> code = new ArrayList<>(codeSize);
         for (int i = 0; i<codeSize; i++){
 
             int r = rand.nextInt(nbColors);

@@ -1,4 +1,4 @@
-package com.mMind;
+package Mastermind;
 
 
 
@@ -6,21 +6,21 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Mastermind {
-    final int nbTry;
-    final int nbColors;
-    final int codeSize;
-    final int wellPlaced = 0;
-    final int misPlaced = 1;
-    final boolean colorMode;
-    Random rand;
-    final Scanner scanner;
+    private final int nbTry;
+    private final int nbColors;
+    private final int codeSize;
+    private final int wellPlaced = 0;
+    private final int misPlaced = 1;
+    private final boolean colorMode;
+    private Random rand;
+    private final Scanner scanner;
 
-    int turn = 0;
-    int[][] submissions;
-    int[][] placements;
-    int[] codeToBreak;
+    private int turn = 0;
+    private int[][] submissions;
+    private int[][] placements;
+    private int[] codeToBreak;
 
-    boolean won = false;
+    private boolean won = false;
 
     public Mastermind(){
         nbTry = 10;

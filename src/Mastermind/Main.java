@@ -1,4 +1,4 @@
-package com.mMind;
+package Mastermind;
 
 public class Main {
 

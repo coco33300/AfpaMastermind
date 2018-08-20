@@ -1,4 +1,4 @@
-package com.mMind;
+package Mastermind;
 
 public enum Color {
     BLEU ("bleu",0),
