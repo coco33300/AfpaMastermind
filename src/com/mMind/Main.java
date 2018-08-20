@@ -6,7 +6,7 @@ public class Main {
 	// write your code here
 
        // Mastermind mastermind = new Mastermind(true);
-        MastermindBis mastermind = new MastermindBis();
+        MastermindCollection mastermind = new MastermindCollection();
         mastermind.play();
     }
 }

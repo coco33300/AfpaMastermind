@@ -2,7 +2,7 @@ package com.mMind;
 
 import java.util.*;
 
-public class MastermindBis {
+public class MastermindCollection {
 
     private final int nbTry = 10;
     private final int nbColors = 6;
@@ -57,13 +57,13 @@ public class MastermindBis {
         return toReturn;
     }
 
-    public MastermindBis(Scanner scanner){
+    public MastermindCollection(Scanner scanner){
         this.scanner = scanner;
         rand = new Random();
         codeToBreak = generateCode();
     }
 
-    public MastermindBis(){
+    public MastermindCollection(){
         this.scanner = new Scanner(System.in);
         rand = new Random();
         codeToBreak = generateCode();
